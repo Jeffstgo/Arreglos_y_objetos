@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inmobiliaria</title>
+  <link rel="stylesheet" href="./assets/css/estilos.css">
+  <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+  <nav>
+    <a href="propiedades_venta.html">Propiedades en venta</a>
+    <a href="propiedades_alquiler.html">Propiedades en alquiler</a>
+  </nav>
+
+  <main>
+    <h1>Encuentra tu nueva propiedad</h1>
+    <section id="venta">
+      <h2>Propiedades en venta</h2>
+      <div id="venta-container" class="row"></div>
+      <a href="index.html?tipo=venta">Ver todas las propiedades en venta</a>
+    </section>
+
+    <section id="alquiler">
+      <h2>Propiedades en alquiler</h2>
+      <div id="alquiler-container" class="row"></div>
+      <a href="index.html?tipo=alquiler">Ver todas las propiedades en alquiler</a>
+    </section>
+  </main>
+
+  <script src="./assets/js/index.js" defer></script>
+</body>
+</html>
